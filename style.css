@@ -1,99 +1,135 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 section {
-    min-height: 500px;
-    padding: 100px 0;
-
+  min-height: 500px;
+  padding: 100px 0;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Mono', monospace;
-    line-height: 1.125;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.125;
 }
-p, a, li, span {
-    font-family: 'Poppins', sans-serif;
+p,
+a,
+li,
+span {
+  font-family: "Poppins", sans-serif;
 }
-p, li, span {
-    color: dimgray;
+p,
+li,
+span {
+  color: dimgray;
 }
 p {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 a {
-    text-decoration: none;
-    color: #7510F7;
-    font-size: 18px;
+  text-decoration: none;
+  color: #7510f7;
+  font-size: 18px;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 .txt-center {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* hero sector start */
 .hero-sector {
-    background-image: url("/images/top-banner.png");
-    background-repeat: no-repeat;
+  background-image: url("/images/top-banner.png");
+  background-repeat: no-repeat;
 }
 .half-width {
-    width: 40%;
-    float: left;
-    margin-left: 5%;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
 }
 .half-width img {
-    width: 100%;
+  width: 100%;
 }
 .highlight {
-    color: #7510F7;
+  color: #7510f7;
 }
 .btn {
-    background-color: transparent;
-    border: 2px solid #7510F7;
-    border-radius: 15px;
-    padding: 0.5rem 1rem ;
-    transition: all 0.2s ease-in-out;
-    font-weight: 400;
+  background-color: transparent;
+  border: 2px solid #7510f7;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
 }
 .btn:hover {
-    background-color: #7510F7;
-    color: #fff;
+  background-color: #7510f7;
+  color: #fff;
 }
 /* hero sector end */
 
 /* dream area start */
 .dream {
-    background-image: url("/images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
+  background-image: url("/images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 /* dream area end */
 
 /* experience sector start */
 .experience-area {
-    background-image: url("/images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
 }
 .experience-area h2 {
-    padding-left: 5%;
+  padding-left: 5%;
 }
 .experience-area .txt-center {
-    box-shadow: 5px 5px 40px gray;
-    height: 75%;
-    padding: 0 2%;
+  box-shadow: 5px 5px 40px gray;
+  height: 75%;
+  padding: 0 2%;
 }
 #designer {
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
 }
 #developer {
-    border-left: 7px solid;
-    border-image: linear-gradient(hsl(100,50%,70%), hsl(130,50%,70%), hsl(160,50%,70%));
-    border-image-slice: 1;
+  border-left: 7px solid;
+  border-image: linear-gradient(
+    hsl(100, 50%, 70%),
+    hsl(130, 50%, 70%),
+    hsl(160, 50%, 70%)
+  );
+  border-image-slice: 1;
 }
 /* experience sector end */
+
+.footer-heart {
+  text-align: center;
+  font-family: open sans, sans-serif;
+}
+
+.footer-heart a {
+  border-bottom: 1px solid #7510f7;
+  padding-bottom: 0.25em;
+}
+
+.footer-heart a:hover {
+  color: #7510f7;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 40%;
+  border-bottom: 0;
+  padding-bottom: 0.3em;
+}
+
+.emoji {
+  vertical-align: middle;
+}
