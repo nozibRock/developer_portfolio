@@ -4,30 +4,35 @@ body {
     box-sizing: border-box;
 }
 section {
-    /* min-height: 500px; */
+    min-height: 500px;
     padding: 100px 0;
 
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Mono', monospace;
+    line-height: 1.125;
 }
-
+h1 {
+    font-size: 3rem;
+}
 p, a {
     font-family: 'Poppins', sans-serif;
 }
 p{
     color: dimgray;
+    padding: 1rem 0;
 }
 a {
     text-decoration: none;
     color: #7510F7;
+    font-size: 18px;
 }
 
 
 
 /* hero sector start */
 .hero-sector {
-    background-image: url(images/top-banner.png);
+    background-image: url("/images/top-banner.png");
     background-repeat: no-repeat;
 }
 .half-width {
@@ -42,9 +47,6 @@ a {
 }
 .highlight {
     color: #7510F7;
-}
-.hero-item {
-    font-size: 18px;
 }
 .btn {
     background-color: transparent;
